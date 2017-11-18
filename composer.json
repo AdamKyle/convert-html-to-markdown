@@ -1,0 +1,15 @@
+{
+    "name": "adambalan/convert-html-to-markdown",
+    "description": "Convert html to makrdown",
+    "type": "script",
+    "require": {
+        "league/html-to-markdown": "^4.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Balan",
+            "email": "a-kyle@hotmail.com"
+        }
+    ]
+}
