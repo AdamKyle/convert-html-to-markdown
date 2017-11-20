@@ -66,6 +66,7 @@ function writeMarkDownFiles(array $directoryContents, string $outputDirectory) {
                 $converter    = new HtmlConverter();
 
                 $markDownForFile = $converter->convert($fileContents);
+                $markDownForFile = strip_tags($markDownForFile);
             }
 
             if ($key === 'break_down') {
